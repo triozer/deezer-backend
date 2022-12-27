@@ -84,8 +84,7 @@ for rental in data["rentals"]:
             {
                 "who": "owner",
                 "type": "credit",
-                "amount": price - commission +
-                              owner_additional_money
+                "amount": price - commission + owner_additional_money
             },
             {
                 "who": "insurance",
